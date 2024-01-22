@@ -1,3 +1,3 @@
 # Kokoa Clone 2024 Update
 
-HTML & CSS are so much fun!
+This is my first ever HTML/CSS project! I hope this looks pretty good...!
