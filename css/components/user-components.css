@@ -25,6 +25,21 @@
     margin-top: 12px;
     font-size: 17px;
     color: var(--color-gray);
+    display: flex;
+}
+
+.user-component__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: #e2746a;
+    border: 2px solid #e2746a;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 0px 5px;
+    border-radius: 12px;
+    margin-left: 6px;
 }
 
 .user-component__avatar--xl {
