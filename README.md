@@ -1,3 +1,3 @@
 # Kokoa Clone 2024 Update
 
-This is my first ever HTML/CSS project! I hope this looks pretty good...!
+This is my first ever HTML/CSS project!
