@@ -1,3 +1,7 @@
+#find-page{
+    height: 130vh;
+}
+
 .recommended-friends {
     margin: 25px 0px;
     padding: 15px 0px;
@@ -98,4 +102,24 @@
 
 .open-post__heart-count span {
     margin-left: 5px;
+}
+
+@keyframes heartBeat{
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.2);
+    }
+    100%{
+        color: white;
+        transform: none;
+    }
+}
+
+.open-post__photo:hover i {
+    will-change: transform;
+    animation: heartBeat 1s linear infinite;
 }

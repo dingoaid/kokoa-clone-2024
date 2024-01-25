@@ -19,3 +19,16 @@
     right: 18px;
     top: 52px;
 }
+
+@keyframes rotateGear {
+    from {
+        transform: none;
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover {
+    animation: rotateGear 2s linear infinite;
+}
